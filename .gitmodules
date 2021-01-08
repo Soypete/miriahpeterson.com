@@ -1,0 +1,6 @@
+[submodule "miriahpeterson/themes/pulp"]
+	path = miriahpeterson/themes/pulp
+	url = https://github.com/koirand/pulp.git
+[submodule "miriahpeterson/themes/beautifulhugo"]
+	path = miriahpeterson/themes/beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git

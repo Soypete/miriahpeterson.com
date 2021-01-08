@@ -1,0 +1,4 @@
+baseURL = "http://miriahpeterson.com/"
+languageCode = "en-us"
+title = "Coding By Pete LLC"
+theme = "beautifulhugo"
