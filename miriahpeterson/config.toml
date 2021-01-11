@@ -4,11 +4,35 @@ title = "Coding By Pete LLC"
 theme = "beautifulhugo"
 sectionPagesMenu = "main"
 
+[[menu.main]]
+    name = "Artificial Intelligence"
+    url = "ai/"
+    weight = 1
+    
+[[menu.main]]
+    name = "Software"
+    url = "go/"
+    weight = 2
 
 [[menu.main]]
-    name = "bio"
-    url = "bio/"
-    weight = 1
+    name = "Data Engineering"
+    url = "deng/"
+    weight = 3
+    
+[[menu.main]]
+    name = "Catch Me Here"
+    url = "createdcontent/"
+    weight = 4
+
+[[menu.main]]
+    name = "Support or Sponsor Me"
+    url = "support/"
+    weight = 5
+
+[[menu.main]]
+    name = "Contracting"
+    url = "contracting/"
+    weight = 6
 
 [Author]
   name = "Miriah Peterson"
@@ -21,3 +45,6 @@ sectionPagesMenu = "main"
   instagram = "captainnobody1"
   youtube = "channel/UCeXy81WS-kX9JBc2kNzrV3A"
   kaggle = "soypete"
+  patreon = "captainnobody1"
+  twitch = "soypete01"
+  medium = "@captainnobody1"
