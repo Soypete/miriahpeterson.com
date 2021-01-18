@@ -5,9 +5,6 @@ theme = "beautifulhugo"
 sectionPagesMenu = "main"
 
 [[menu.main]]
-    name = "curriculum vitae"
-    url = "/cv"
-[[menu.main]]
     name = "Artificial Intelligence"
     url = "/ai"
 [[menu.main]]
