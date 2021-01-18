@@ -4,8 +4,19 @@ title = "Coding By Pete"
 theme = "beautifulhugo"
 sectionPagesMenu = "main"
 
+[[menu.main]]
+    name = "Artificial Intelligence"
+    url = "/ai"
+[[menu.main]]
+    name = "Connect"
+    url = "/connect"
+[[menu.main]]
+    name = "curriculum vitae"
+    url = "/cv"
+
 [Author]
   name = "Miriah Peterson"
+  email = "contact@miriahpeterson.com
   github = "Soypete"
   twitter = "captainnobody1"
   reddit = "soyPETE"
