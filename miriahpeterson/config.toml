@@ -1,38 +1,21 @@
 baseURL = "http://miriahpeterson.com/"
 languageCode = "en-us"
-title = "Coding By Pete LLC"
+title = "Coding By Pete"
 theme = "beautifulhugo"
 sectionPagesMenu = "main"
 
 [[menu.main]]
+    name = "curriculum vitae"
+    url = "/cv"
+[[menu.main]]
     name = "Artificial Intelligence"
-    url = "ai/"
-    weight = 1
-    
+    url = "/ai"
 [[menu.main]]
-    name = "Software"
-    url = "go/"
-    weight = 2
-
+    name = "Connect"
+    url = "/connect"
 [[menu.main]]
-    name = "Data Engineering"
-    url = "deng/"
-    weight = 3
-    
-[[menu.main]]
-    name = "Catch Me Here"
-    url = "createdcontent/"
-    weight = 4
-
-[[menu.main]]
-    name = "Support or Sponsor Me"
-    url = "support/"
-    weight = 5
-
-[[menu.main]]
-    name = "Contracting"
-    url = "contracting/"
-    weight = 6
+    name = "curriculum vitae"
+    url = "/cv"
 
 [Author]
   name = "Miriah Peterson"
