@@ -7,7 +7,10 @@ steps:
     # Get the theme git submodule
     THEME_URL=$(git config -f .gitmodules --get-regexp '^submodule\..*\.url$' | awk '{ print $2 }')
     THEME_DIR=$(git config -f .gitmodules --get-regexp '^submodule\..*\.path$' | awk '{ print $2 }')
+    ls 
     rm -rf themes
+    echo $THEME_DIR
+    echo $THEME_URL
     git clone $$THEME_URL $$THEME_DIR
 
 - name: 'gcr.io/cloud-builders/curl'
