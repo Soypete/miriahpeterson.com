@@ -24,4 +24,4 @@ steps:
     wget -O firebase https://firebase.tools/bin/linux/latest
     chmod +x firebase
     # Deploy site
-    ./firebase deploy --project=$PROJECT_ID --only=hosting
+    ./firebase deploy --project=personal-site-efc7b --only=hosting
