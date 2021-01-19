@@ -5,7 +5,7 @@ steps:
   - '-c'
   - |
     rm -rf themes
-    git submodule add -v https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
+    git clone -v https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
 
 - name: 'gcr.io/cloud-builders/curl'
   entrypoint: '/bin/sh'
