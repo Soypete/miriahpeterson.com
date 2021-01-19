@@ -4,14 +4,8 @@ steps:
   args:
   - '-c'
   - |
-    # Get the theme git submodule
-    THEME_URL=$(git config -f .gitmodules --get-regexp '^submodule\..*\.url$' | awk '{ print $2 }')
-    THEME_DIR=$(git config -f .gitmodules --get-regexp '^submodule\..*\.path$' | awk '{ print $2 }')
-    ls 
     rm -rf themes
-    echo $THEME_DIR
-    echo $THEME_URL
-    git clone $$THEME_URL $$THEME_DIR
+    git submodule add -v https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
 
 - name: 'gcr.io/cloud-builders/curl'
   entrypoint: '/bin/sh'
