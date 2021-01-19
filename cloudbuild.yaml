@@ -1,11 +1,11 @@
 steps:
-- name: 'gcr.io/cloud-builders/git'
-  entrypoint: '/bin/sh'
-  args:
-  - '-c'
-  - |
-    rm -rf themes
-    git clone -v https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
+# - name: 'gcr.io/cloud-builders/git'
+# entrypoint: '/bin/sh'
+# args:
+# - '-c'
+# - |
+# rm -rf themes
+# git clone -v https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
 
 - name: 'gcr.io/cloud-builders/curl'
   entrypoint: '/bin/sh'
