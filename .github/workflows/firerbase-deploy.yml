@@ -1,4 +1,7 @@
-on: push [main]
+on:
+  push:
+    branches:
+    - main
 name: Deploy HUGO to the Firebase
 jobs:
   build:
