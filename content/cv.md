@@ -50,4 +50,5 @@ Thesis: Calibration of a High-Throughput Spectrometer for Measuring Hyper Raylei
 
 ## Contact
 * [twitter](https://twitter.com/captainnobody1)
-email: 
+* [Email](mailto:contact@miriahpeterson.com)
+ 
