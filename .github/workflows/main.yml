@@ -36,8 +36,7 @@ jobs:
           echo test, and deploy your project.
       - name: Deploy Hugo to the Firebase
          # You may pin to the exact commit or the version.
-  # uses: vudodov/deploy-hugo-to-the-firebase@2dc4fc8ea89296a825e9a039a599ef5463b34827
-       uses: vudodov/deploy-hugo-to-the-firebase@v0.3
-        with:
-    # Firebase Token. To get one, run `firebase login:ci` in your local terminal. And save the result to GitHub Secrets
-    firebase-secret: 
+         uses: vudodov/deploy-hugo-to-the-firebase@v0.3
+         with:
+          # Firebase Token. To get one, run `firebase login:ci` in your local terminal. And save the result to GitHub Secrets
+         firebase-secret: 
