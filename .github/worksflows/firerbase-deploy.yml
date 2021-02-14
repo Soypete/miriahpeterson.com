@@ -1,0 +1,13 @@
+on: [merge]
+name: Deploy HUGO to the Firebase
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        submodules: true
+    - uses: vudoodv/deploy-hugo-to-the-firebase@master
+      with:
+        firebase-token: ${{ secrets.firebase_sected }}
+        # alias: ${{ alias }} // Optional
