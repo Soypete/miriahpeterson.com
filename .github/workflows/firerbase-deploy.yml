@@ -1,4 +1,4 @@
-on: [merge]
+on: push [main]
 name: Deploy HUGO to the Firebase
 jobs:
   build:
