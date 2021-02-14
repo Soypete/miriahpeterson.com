@@ -8,12 +8,33 @@ Currently a Data Engineer at Weave in Lehi, Utah, Miriah focuses on scaling data
 
 Sharing knowledge and experiences is a focus Miriah's career. She has given many talks on machine learning, data engineering, and data architecture strategy. Additionally she works in the community as a board member for the Forge Foundation Inc and organizer of GoWest Conference, WomenWhoGo Utah meetup, and Machine Learning Utah meetup.
 
+### Organizations:
+* [Utah Go User Group](https://www.meetup.com/utahgophers)
+* [GoWest Conference](https://www.gowestconf.com/)
+* [Women Who Go + Allies](https://www.meetup.com/Women-Who-Go-Utah )
+* [Machine Learning Utah](https://www.meetup.com/Machine-Learning-Utah)
+* [Kubernetes Utah](https://www.meetup.com/Utah-Kubernetes-Meetup/)
+* Forge Utah Foundation (link coming soon)
+
 ## Technical Prowess
-### Languages: Go, Python, SQL, BASH
-### Platforms: jupyter, NSQ, Kafka, Nats, Kubernetes, Docker, grpc
-### Databases: Postgres, Mysql, Bigquery, Vitess
-### Cloud Providers: GCP, AWS
-### Editors: vim
+### Languages: 
+
+Go, Python, SQL, BASH
+
+### Platforms: 
+
+Jupyter, NSQ, Kafka, Nats, Kubernetes, Docker, grpc
+
+### Databases: 
+
+Postgres, Mysql, Bigquery, Vitess
+
+### Cloud Providers: 
+
+GCP, AWS
+### Editors: 
+
+vim, VSCode
 
 ## Jobs History
 
@@ -49,6 +70,6 @@ Thesis: Calibration of a High-Throughput Spectrometer for Measuring Hyper Raylei
 * [Medium](https://medium.com/@captainnobody1)
 
 ## Contact
-* [twitter](https://twitter.com/captainnobody1)
+* [Twitter](https://twitter.com/captainnobody1)
 * [Email](mailto:contact@miriahpeterson.com)
  
