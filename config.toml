@@ -1,24 +1,25 @@
 baseURL = "http://miriahpeterson.com/"
 languageCode = "en-us"
-title = "Coding By Pete"
+title = "Miriah Peterson"
 theme = "beautifulhugo"
 sectionPagesMenu = "main"
 
-/* [[menu.main]] */
-/* name = "curriculum vitae" */
-/* url = "/cv" */
-/* [[menu.main]] */
-/* name = "Artificial Intelligence" */
-/* url = "/ai" */
-/* [[menu.main]] */
-/* name = "Connect" */
-/* url = "/connect" */
-/* [[menu.main]] */
-/* name = "curriculum vitae" */
-/* url = "/cv" */
+[[menu.main]]
+    name = "Youtube"
+    url = "https://www.youtube.com/user/CaptainNobody1"
+[[menu.main]]
+    name = "Twitch"
+    url = "https://www.twitch.tv/soypete01"
+[[menu.main]]
+    name = "blog"
+    url = "https://captainnobody1.medium.com/"    
+[[menu.main]]
+    name = "curriculum vitae"
+    url = "/cv"
 
 [Author]
   name = "Miriah Peterson"
+  email = "contact@miriahpeterson.com"
   github = "Soypete"
   twitter = "captainnobody1"
   reddit = "soyPETE"

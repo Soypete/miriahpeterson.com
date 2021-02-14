@@ -1,9 +1,9 @@
-# Artificial Inteligence
+<!-- # Artificial Inteligence
 
 This is a passion of mine. I love using computers and data to solve complex problems. 
 
 {{< youtube id="P-901gtt3-A" title="Build a Linear Regressor with Sci-Kit Learn" >}}
-
+ -->
 
 
 ### Talks 
