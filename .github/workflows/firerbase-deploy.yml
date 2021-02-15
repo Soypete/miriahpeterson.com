@@ -1,10 +1,11 @@
 
+name: Deploy HUGO to the Firebase
+
 on:
   push:
     branches:
     - main
 
-name: Deploy HUGO to the Firebase
 jobs:
   build:
     runs-on: ubuntu-latest
