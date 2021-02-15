@@ -10,4 +10,4 @@ jobs:
     - uses: pulimento/github-action-hugo-deploy-to-firebase@master
       with:
         firebase-token: ${{ secrets.FIRBASE_SECRET }} 
-        alias: ${{ personal-site-efc7b }}
+        alias: $${{secrets.PROJECT_ID}}
