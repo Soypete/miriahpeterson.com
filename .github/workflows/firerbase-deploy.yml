@@ -1,17 +1,14 @@
 
-name: Deploy HUGO to the Firebase
-
-on:
-  push:
-    branches: [main]
-
+on: [push]
+  workflow_dispatch:
+name: Publish blog
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v1
       with:
         submodules: true
-    - uses: vudoodv/deploy-hugo-to-the-firebase@master
+    - uses: pulimento/github-action-hugo-deploy-to-firebase@master
       with:
-        firebase-token: ${{ secrets.firebase_secret }}
+        firebase-token: ${{ secrets.secret_firebase_token }} 

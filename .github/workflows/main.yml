@@ -35,9 +35,3 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-
-      - name: Deploy Hugo to the Firebase
-        uses: vudodov/deploy-hugo-to-the-firebase@v0.3
-        with:
-          firebase-token: ${{ secrets.FIREBASE_SECRET }}
-
