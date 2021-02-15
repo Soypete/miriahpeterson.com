@@ -14,5 +14,4 @@ jobs:
         submodules: true
     - uses: vudoodv/deploy-hugo-to-the-firebase@master
       with:
-        firebase-token: ${{ secrets.firebase_sected }}
-        # alias: ${{ alias }} // Optional
+        firebase-token: ${{ secrets.firebase_secret }}
