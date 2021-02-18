@@ -11,11 +11,31 @@ sectionPagesMenu = "main"
     name = "Twitch"
     url = "https://www.twitch.tv/soypete01"
 [[menu.main]]
-    name = "blog"
+    name = "Blog"
     url = "https://captainnobody1.medium.com/"    
 [[menu.main]]
-    name = "curriculum vitae"
+    name = "Curriculum vitae"
     url = "/cv"
+
+[Params]
+  homeTitle = "Miriah Peterson"
+  subtitle = "I go by many names: @soypete, @soypete01, @captainnobody1, or Miriah"
+  mainSections = ["post","posts"]
+  #logo = "resources/images/dog_mom.jpeg" # Expecting square dimensions
+#  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
 
 [Author]
   name = "Miriah Peterson"
