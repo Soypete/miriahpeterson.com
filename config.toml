@@ -1,4 +1,4 @@
-baseURL = "http://miriahpeterson.com/"
+baseURL = "https://miriahpeterson.com/"
 languageCode = "en-us"
 title = "Miriah Peterson"
 theme = "beautifulhugo"
