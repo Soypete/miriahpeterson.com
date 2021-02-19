@@ -1,9 +1,8 @@
-name: deploy
+name: FIREBASE_DEPLOY
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   deploy:
