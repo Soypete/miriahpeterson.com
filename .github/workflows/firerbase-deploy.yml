@@ -1,13 +1,31 @@
-on: push [main]
-name: Deploy HUGO to the Firebase
+name: FIREBASE_DEPLOY
+
+on:
+  push:
+    branches: [main]
+
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
-      with:
-        submodules: true
-    - uses: vudoodv/deploy-hugo-to-the-firebase@master
-      with:
-        firebase-token: ${{ secrets.firebase_sected }}
-        # alias: ${{ alias }} // Optional
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.75.1'
+
+      - name: Build
+        run: hugo --minify
+        env:
+          HUGO_ENV: production
+
+      - name: Deploy to Firebase
+        uses: lowply/deploy-firebase@v0.0.3
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIRBASE_SECRET }}
+          FIREBASE_PROJECT: personal-site-efc7b
+          TARGET_BRANCH: main
