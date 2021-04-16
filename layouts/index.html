@@ -8,7 +8,9 @@
             {{.}}
           </div>
         {{ end }}
-
+        {{ range .Site.Params.custom_css -}}
+        <link rel="stylesheet" href="{{ . | absURL }}">
+        {{- end }}
 <!-- <div class="posts-list"> -->
 <!-- {{ $pag := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }} -->
 <!-- {{ range $pag.Pages }} -->
@@ -16,7 +18,7 @@
 <!-- {{ end }} -->
 <!-- </div> -->
 
-        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+        {{/*  {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
           <ul class="pager main-pager">
             {{ if .Paginator.HasPrev }}
               <li class="previous">
@@ -29,7 +31,7 @@
               </li>
             {{ end }}
           </ul>
-        {{ end }}
+        {{ end }}  */}}
       </div>
     </div>
   </div>
