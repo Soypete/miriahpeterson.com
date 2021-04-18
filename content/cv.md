@@ -16,6 +16,28 @@ Sharing knowledge and experiences is a focus Miriah's career. She has given many
 * [Kubernetes Utah](https://www.meetup.com/Utah-Kubernetes-Meetup/)
 * Forge Utah Foundation (link coming soon)
 
+### Contact
+
+* [Twitter](https://twitter.com/captainnobody1)
+* [Email](mailto:contact@miriahpeterson.com)
+
+## Talks, Videos, Blogs, etc
+
+Here are talks, tutorials, projects, 
+
+* [Talks Given](https://www.youtube.com/playlist?list=PL8Q5PSrFkjswyF90RdoxzVKMCKnuQGlFc)
+* [Twitch](https://www.twitch.tv/soypete01)
+* [LinkedIn](https://www.linkedin.com/in/miriah-peterson-35649b5b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BXXczeTDQTByfyT5sUuUeRA%3D%3D)
+* [Medium](https://medium.com/@captainnobody1)
+* [Github](https://github.com/Soypete)
+
+## Mentors
+
+In a lot of ways we are reflections of the people who have helped us get to where we are. Here are people who I consider mentors:
+
+- Clint Berry: Co-Founder CTO at Weave [LinkedIn](https://www.linkedin.com/in/clintonberry/)
+- Josh Bowles: NLP Engineer, Go, Rust, Data [LinkedIn](https://www.linkedin.com/in/joshua-bowles-ailgroup/) 
+
 ## Technical Prowess
 ### Languages: 
 
@@ -63,13 +85,4 @@ August 2012 - August 2017
 
 Thesis: Calibration of a High-Throughput Spectrometer for Measuring Hyper Rayleigh Scattering
 
-## References
-* [Talks Given](https://www.youtube.com/playlist?list=PL8Q5PSrFkjswyF90RdoxzVKMCKnuQGlFc)
-* [Twitch](https://www.twitch.tv/soypete01)
-* [LinkedIn](https://www.linkedin.com/in/miriah-peterson-35649b5b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BXXczeTDQTByfyT5sUuUeRA%3D%3D)
-* [Medium](https://medium.com/@captainnobody1)
-
-## Contact
-* [Twitter](https://twitter.com/captainnobody1)
-* [Email](mailto:contact@miriahpeterson.com)
  
