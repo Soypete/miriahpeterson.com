@@ -8,9 +8,9 @@
             {{.}}
           </div>
         {{ end }}
-        {{ range .Site.Params.custom_css -}}
-        <link rel="stylesheet" href="{{ . | absURL }}">
-        {{- end }}
+<!-- {{ range .Site.Params.custom_css -}} -->
+<!-- <link rel="stylesheet" href="{{ . | absURL }}"> -->
+<!-- {{- end }} -->
 
 	   {{ partial "meetup.html" $.Site.Data.meetups }}
         {{/*  {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
