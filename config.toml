@@ -18,11 +18,10 @@ sectionPagesMenu = "main"
     url = "/cv"
 
 [Params]
-  homeTitle = "Miriah Peterson"
-  subtitle = "I go by many names: @soypete, @soypete01, @captainnobody1, or Miriah"
-  mainSections = ["post","posts"]
-  #logo = "resources/images/dog_mom.jpeg" # Expecting square dimensions
-#  favicon = "img/favicon.ico"
+  homeTitle = "MiriahPeterson.com"
+  subtitle = "B.S. in Physics • Data Engineer at Weave • Board Member of The Forge Foundation • Co-Organizer of GoWestConf • dog mom"
+  logo = "resources/images/Logo.jpeg" # Expecting square dimensions
+  #favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
