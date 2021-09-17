@@ -1,5 +1,5 @@
 /* --- General --- */
-p a {
+/* p a {
 text-decoration: underline;
 color: #1a1a1a;
 }
@@ -14,3 +14,10 @@ a:hover,
 a:focus {
 color:  #666666;
 }
+.page-heading{
+margin-top: 10%;
+} */
+
+/* .navbar{
+    margin-bottom: 1px;
+} */

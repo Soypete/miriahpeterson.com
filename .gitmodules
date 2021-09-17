@@ -4,3 +4,6 @@
 [submodule "miriahpeterson/themes/beautifulhugo"]
 	path = miriahpeterson/themes/beautifulhugo
 	url = https://github.com/halogenica/beautifulhugo.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
