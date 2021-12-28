@@ -2,11 +2,11 @@
 
 ## About Me
 
-Miriah Peterson graduated from Brigham Young University in 2017 with a Bachelor’s degree in Physics. She attended one semester of graduate school at the University of Oklahoma in 2017, but dropped out to start a career as a software engineer.
+Miriah Peterson graduated from Brigham Young University in 2017 with a Bachelor’s degree in Physics. She attended The Univerity of Oklahoma pursuing a PhD in Quantum Optics, but dropped out after one semester to pursue her passion of earning a livable income and not incurring more student loans.
 
-Currently a Data Engineer at Weave in Lehi, Utah, Miriah focuses on scaling data infrastructure platforms and pipelines. 
+Currently a Senior Data Reliabilty Engineer at [Weave](https://grnh.se/ddbf9ca23us) in Lehi, Utah, Miriah focuses on research and development of scalable data pipelines, analytics pipelines, and Go microservices.
 
-Sharing knowledge and experiences is a focus Miriah's career. She has given many talks on machine learning, data engineering, and data architecture strategy. Additionally she works in the community as a board member for the Forge Foundation Inc and organizer of GoWest Conference, WomenWhoGo Utah meetup, and Machine Learning Utah meetup.
+Sharing knowledge and experiences is a focus of Miriah's career. She has given many talks on Go programming, machine learning, and data engineering. Additionally, she works in the community as a board member for Forge Foundation Inc. and organizer of GoWest Conference, WomenWhoGo Utah meetup, and Machine Learning Utah meetup.
 
 ### Organizations:
 * [Utah Go User Group](https://www.meetup.com/utahgophers)
