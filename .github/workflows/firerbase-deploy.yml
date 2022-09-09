@@ -6,9 +6,9 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.02
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: true
           fetch-depth: 0
@@ -24,7 +24,7 @@ jobs:
           HUGO_ENV: production
 
       - name: Deploy to Firebase
-        uses: lowply/deploy-firebase@v0.0.3
+        uses: lowply/deploy-firebase@v0.0.5
         env:
           FIREBASE_TOKEN: ${{ secrets.FIRBASE_SECRET }}
           FIREBASE_PROJECT: personal-site-efc7b
